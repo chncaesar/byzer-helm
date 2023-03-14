@@ -21,6 +21,9 @@ jobs:
           python-version: '3.9'
           check-latest: true
 
+      - name: install python package
+        run: pip install ruamel kubernetes
+
       - name: Set up chart-testing
         uses: helm/chart-testing-action@v2.3.1
 
