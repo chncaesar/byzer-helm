@@ -22,7 +22,7 @@ jobs:
           check-latest: true
 
       - name: install python package
-        run: pip install ruamel kubernetes
+        run: pip install ruamel.yaml  kubernetes
 
       - name: Set up chart-testing
         uses: helm/chart-testing-action@v2.3.1
