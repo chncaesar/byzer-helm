@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 
 import ruamel.yaml
 from kubernetes import client, config
